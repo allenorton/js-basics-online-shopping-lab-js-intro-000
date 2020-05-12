@@ -45,7 +45,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  for (var x = 0; x < cart.length; ) {
+  for (var x = 0; x < cart.length; x++) {
     return item === cart[x].itemName ? cart.splice() : "That item is not in your cart."
   }
 }
