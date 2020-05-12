@@ -45,7 +45,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  return item === cart[x].itemName ? Array.prototype.splice(cart)
+  return item === cart[x].itemName ? cart.splice(x,1)
 }
 
 function placeOrder(cardNumber) {
