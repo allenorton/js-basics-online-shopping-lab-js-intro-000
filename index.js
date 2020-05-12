@@ -45,7 +45,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  return item === itemName ? 
+  return item === cart.itemName ? cart.splice()
 }
 
 function placeOrder(cardNumber) {
