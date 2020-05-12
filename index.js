@@ -50,8 +50,8 @@ function removeFromCart(item) {
       cart.splice(x,1)
       return cart
     }
-  
   }
+  if 
 }
 
 function placeOrder(cardNumber) {
