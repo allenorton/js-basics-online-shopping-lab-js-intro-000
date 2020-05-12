@@ -45,8 +45,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  for (var x = 0; x < cart.length){
-    return item === cart[x].itemName ? cart.splice(x,1) : "That item is not in your cart.
+  for (var x = 0; x < cart.length) {
+    return item === cart[x].itemName ? cart.splice(x,1) : "That item is not in your cart."
+  }
 }
 
 function placeOrder(cardNumber) {
